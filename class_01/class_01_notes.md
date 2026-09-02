@@ -383,7 +383,9 @@ At the end of every class, you will submit the demo you followed along as a part
 3. Write in the textbox on the bottom left that says "Summary (required)". This is a short comment about the changes you made to the files. This is what names the "version", so if you need to go back in time to a previous version you have a somewhat detailed description.
 4. Press the blue `Commit to main` button.
 5. It may ask for you to publish your branch. Press `Publish Branch`.
-6. 
+6. Otherwise, press `Push origin`. You can also press the third button in the nav bar.
+7. Check your repository to see your changes: https://github.com/[your username]/networked-media
+8. Copy the folder link (`https://github.com/[your username]/networked-media/class_xx/`) and submit it to the daily assignment.
 
 ### Further Resources
 
