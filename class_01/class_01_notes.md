@@ -112,7 +112,7 @@ Github is a public site for hosting repositories of code. This is very similar t
 2. Click "Sign in to GitHub.com"
 3. You don't need to change anything on the "Configure Git", just press "Finish".
 4. It will prompt you to `Move GitHub Desktop to the Applications Folder`. If you want to do that you can.
-5. In your browser, go to https://github.com/samheckle/networked-media-starter/fork
+5. In your browser, go to [https://github.com/samheckle/networked-media-starter/fork](https://github.com/samheckle/networked-media-starter/fork)
 6. Rename the folder to `networked-media` (remove `-starter`) and press "Create Fork".
 7. It should automatically redirect you to that repository, which should have a url that looks like `https://github.com/[your username]/networked-media`.
 8. Copy that URL.
@@ -225,6 +225,7 @@ These are tags that will always live inside the `<body>` tag.
 The way html is structured is through the flow layout: each page comprises `block` and `inline` elements to construct each page. This is like a stack of documents, it reads from the top to the bottom according to how big the page is and how much content you have.
 
 <!-- prettier-ignore -->
+
 |block | inline |
 |---|---|
 |`block` elements are stacked vertically, so they typically won't have content next to it. Think of it in like a word document where you have images "break" text. | `inline` elements are stacked horizontally, so they will usually have content side-by-side. In a word document, it is also called inline. |
