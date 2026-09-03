@@ -41,7 +41,12 @@ You are not required to have any formal Javascript or HTML/CSS experience, _but 
 
 ![sam mood board](https://github.com/samheckle/images/raw/main/intro.png?raw=true)
 
-**GA: **
+**GA: nujum★ they/them**
+* mechanical engineer, designer, educator, artist
+* things you can ask me about: how to make things (3d printing, laser cutting, woodworking, CNC, fiber arts), coding (pseudocode, organizing code, thinking like a computer, how to debug), feedback, links to readings and resources and references, collaboration skills, spirituality, work-life balance
+* [office hours](https://calendar.app.google/FkQpaq8yftMuoLh1A)
+
+![nujum mood board](https://github.com/samheckle/networked-media-fa-26/blob/main/class_01/nujum.png?raw=true)
 
 
 ## Short history of the web
@@ -112,7 +117,7 @@ Github is a public site for hosting repositories of code. This is very similar t
 2. Click "Sign in to GitHub.com"
 3. You don't need to change anything on the "Configure Git", just press "Finish".
 4. It will prompt you to `Move GitHub Desktop to the Applications Folder`. If you want to do that you can.
-5. In your browser, go to https://github.com/samheckle/networked-media-starter/fork
+5. In your browser, go to [https://github.com/samheckle/networked-media-starter/fork](https://github.com/samheckle/networked-media-starter/fork)
 6. Rename the folder to `networked-media` (remove `-starter`) and press "Create Fork".
 7. It should automatically redirect you to that repository, which should have a url that looks like `https://github.com/[your username]/networked-media`.
 8. Copy that URL.
@@ -225,6 +230,7 @@ These are tags that will always live inside the `<body>` tag.
 The way html is structured is through the flow layout: each page comprises `block` and `inline` elements to construct each page. This is like a stack of documents, it reads from the top to the bottom according to how big the page is and how much content you have.
 
 <!-- prettier-ignore -->
+
 |block | inline |
 |---|---|
 |`block` elements are stacked vertically, so they typically won't have content next to it. Think of it in like a word document where you have images "break" text. | `inline` elements are stacked horizontally, so they will usually have content side-by-side. In a word document, it is also called inline. |
@@ -384,7 +390,7 @@ At the end of every class, you will submit the demo you followed along as a part
 4. Press the blue `Commit to main` button.
 5. It may ask for you to publish your branch. Press `Publish Branch`.
 6. Otherwise, press `Push origin`. You can also press the third button in the nav bar.
-7. Check your repository to see your changes: https://github.com/[your username]/networked-media
+7. Check your repository to see your changes: `https://github.com/[your username]/networked-media`
 8. Copy the folder link (`https://github.com/[your username]/networked-media/class_xx/`) and submit it to the daily assignment.
 
 ### Further Resources
