@@ -41,7 +41,12 @@ You are not required to have any formal Javascript or HTML/CSS experience, _but 
 
 ![sam mood board](https://github.com/samheckle/images/raw/main/intro.png?raw=true)
 
-**GA: **
+**GA: nujum★ they/them**
+* mechanical engineer, designer, educator, artist
+* things you can ask me about: how to make things (3d printing, laser cutting, woodworking, CNC, fiber arts), coding (pseudocode, organizing code, thinking like a computer, how to debug), feedback, links to readings and resources and references, collaboration skills, spirituality, work-life balance
+* [office hours](https://calendar.app.google/FkQpaq8yftMuoLh1A)
+
+![nujum mood board](https://github.com/samheckle/networked-media-fa-26/blob/main/class_01/nujum.png?raw=true)
 
 
 ## Short history of the web
