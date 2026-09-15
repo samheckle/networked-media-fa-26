@@ -92,7 +92,9 @@ Hard pivot to.....
 *C*ascading *S*tyle *S*heet (CSS) allows us to style elements using rules. The syntax of a rule consists of:
 
 [selector](#selectors) = thing we are grabbing on the html page
+
 [property](#properties) = thing that we want to change about the specific element
+
 value = what are we changing that element by
 
 ```css
@@ -156,7 +158,7 @@ There are three main ways of styling an HTML page. They all use the same CSS lan
   <html>
     <head>
       **
-      <link rel="stylesheet" href="/style.css" />
+      <link rel="stylesheet" href="style.css" />
       **
       <!-- We use the <link> tag to point to our CSS file. -->
     </head>
