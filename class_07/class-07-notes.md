@@ -152,6 +152,7 @@ Typically, we want text to be between 60%-80% of a webpage (even Practical Typog
 ##### Accessibility 
 
 - [w3c accessability guidelines](https://www.w3.org/WAI/standards-guidelines/)
+- Web Accessability Cookbook: [Free at NYU Library](https://search.library.nyu.edu/permalink/01NYU_INST/1n0hp3f/alma99104073873407871)
 
 
 #### 5. Implementation
