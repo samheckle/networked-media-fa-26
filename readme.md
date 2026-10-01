@@ -10,3 +10,5 @@ Pages Site: [https://samheckle.github.io/networked-media-fa-26/](https://samheck
 | Week 3                       | 9/15 | [Hosting on Digital Ocean](https://samheckle.github.io/networked-media-fa-26/class_04/)                                                         |
 |                              | 9/17 | Project #1: [How to Critique](https://samheckle.github.io/how-to/critique)                                                                      |
 | Week 4                       | 9/22 | [Intro to DOM](https://samheckle.github.io/networked-media-fa-26/class_05/class_5_notes)                                                        |
+|                              | 9/24 | [How to Research](https://github.com/samheckle/networked-media-fa-26/blob/main/class_07/class-07-notes.md)                                      |
+| Week 5                       | 9/29 | [Time](https://github.com/samheckle/networked-media-fa-26/blob/main/class_08/class-08-notes.md)                                                 |
