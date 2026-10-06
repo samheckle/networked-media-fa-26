@@ -11,6 +11,7 @@
 2. Update to demo from last class
 3. Reading #3 due 10/6
 4. Project #2 due 10/8
+
 ## Project 2 Concept Share
 
 - Work with the person sitting across from you
