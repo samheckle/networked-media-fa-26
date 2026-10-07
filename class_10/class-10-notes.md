@@ -64,7 +64,7 @@ body{
 If you notice the tiniest bit of a scroll on the body, typically we want to *remove* it because it is bad web practice.  Try both these methods and see which one works best for your project. 
 ### The `position` CSS Property
 
-`position` is a CSS property that defaults to `static`, which ensures elements fall into the normal flow of a webpage. We can manipulate the normal flow by changing the `display`, `float`, or `overflow` (as mentioned in [class 4](../class_04/class-04-notes.md#breaking-the-normal-flow)), or with `position`.
+`position` is a CSS property that defaults to `static`, which ensures elements fall into the normal flow of a webpage. We can manipulate the normal flow by changing the `display`, `float`, or `overflow`, or with `position`.
 
 `position` can have 4 typical values:
 - `static`: default value
