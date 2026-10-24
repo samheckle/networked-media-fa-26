@@ -100,6 +100,8 @@ This adds modularity into our HTML files! Think about best ways to incorporate r
 
 ### Making your website live
 
+There is a [video tutorial](https://youtu.be/XXaF1O7aFDU) of this written explanation as well. 
+
 We did this a long time ago when setting up our `webserver/` folder. But, we will do it again now. 
 
 For Project 3, you will need to upload everything to your `project3/` folder in Cyberduck. Along with this, we need to run our Node scripts. 
