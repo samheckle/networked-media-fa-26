@@ -98,9 +98,11 @@ With a partial file, we can make something that is like a nav bar and inject the
 
 This adds modularity into our HTML files! Think about best ways to incorporate reusuability. 
 
-### Uploading to Cyberduck
+### Making your website live
 
-For Project 3, you will need to upload everything to your `project3/` folder in Cyberduck. But, we need to do some other steps to get the server running.
+We did this a long time ago when setting up our `webserver/` folder. But, we will do it again now. 
+
+For Project 3, you will need to upload everything to your `project3/` folder in Cyberduck. Along with this, we need to run our Node scripts. 
 
 1. Open your project in your file explorer.
 2. Open up Cyberduck.
