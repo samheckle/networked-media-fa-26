@@ -46,7 +46,7 @@ app.get('/form', (request, response)=>{
 app.get('/view-all', (request, response)=>{
 	// optional second param in response.render: data from the server
 	// it is always an object
-	response.render('view-all.njk', { messagesArrayFromServer: allData })
+	response.render('view-all.njk', { messagesArrayFromServer: allData, specialNav: true })
 })
 
 // for every <form> we need an app.post
