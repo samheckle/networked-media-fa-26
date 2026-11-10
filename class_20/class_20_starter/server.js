@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 
 app.post('/add-data', (req, res) => {
 	let dataToBeAdded = {
-		message: req.body.newMessage,
+		text: req.body.text,
 		timestamp: Date.now(),
 	};
 
