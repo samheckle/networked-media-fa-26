@@ -68,7 +68,7 @@ On [October 25th](https://hellgatenyc.com/city-paved-over-bed-stuy-aquarium/), t
     - an active example: deleting NSFW on a kitten forum
     - a passive example: on Bilibili the prompt “Leave a kind comment”
 
-We will present these as a class and add them to [this doc](https://docs.google.com/document/d/1GaBk_rudTdG7p-28T8ooOv2mtDGwnfhpBhrJSG7qkkc/edit?tab=t.0)
+We will present these as a class and write them down.
 
 ### What rules do we want to define for our own community?
 
