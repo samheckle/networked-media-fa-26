@@ -99,6 +99,7 @@ Part 2 - Updating your bot with your partner's data:
     - Note: Make sure the port number in the URL matches your partner's `app.listen`.
     - Note: Your partner's server needs to be up and running for you to make requests to it.
 - In `bot.js`: under the comment ["TODO SELECT ITEM FROM JSON"](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L32), manipulate the retrieved data by grabbing the json. This will be similar to [class 18 demo](https://github.com/samheckle/networked-media-fa-26/blob/main/class_18/class-18-demo/bot.js#L27). The json data that you are parsing is an array.
+- In `bot.js`: when you are ready to set up your interval, under the comment ["TODO: CHANGE 5000ms TO YOUR SPECIFIC INTERVAL"](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L41)
 - In `bot.js`: when you are ready to have your bot be public, change the [visibility property](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L17) to `"public"`
 
 ### Uploading to droplet & updating Node.js
