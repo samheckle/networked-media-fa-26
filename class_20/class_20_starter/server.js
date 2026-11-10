@@ -24,17 +24,17 @@ app.get('/', (req, res) => {
 
 app.post('/add-data', (req, res) => {
 	let dataToBeAdded = {
-		message: request.body.newMessage,
+		message: req.body.newMessage,
 		timestamp: Date.now(),
 	};
 
 	database.insert(dataToBeAdded, (error, newData) => {
 		if (error) {
 			console.log(error);
-			response.send('error, data was not added');
+			res.send('error, data was not added');
 		} else {
 			console.log(newData);
-			response.send('data added successfully');
+			res.send('data added successfully');
 		}
 	});
 });
