@@ -1,13 +1,5 @@
-// this server handles image upload
-// this is built off of class_15_demo
-// new info is commented
-
 const express = require('express');
 const nunjucks = require('nunjucks');
-
-// setting up multer library
-const multer = require('multer')
-const uploadProcessor = multer( {dest: 'public/upload/' })
 
 const app = express();
 
