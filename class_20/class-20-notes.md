@@ -81,16 +81,24 @@ We will collectively be modifying the [server rules](https://networked-media.itp
 
 Download the [starter code](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsamheckle%2Fnetworked-media-fa-26%2Ftree%2Fmain%2Fclass_20%2Fclass_20_starter)
 
-We will be adding the final piece of the puzzle: making a fetch request to your partner's data inside `bot.js`
+We will be adding the final piece of the puzzle: making a fetch request to your partner's data inside `bot.js`. This is building on top of the `class_20_starter/` code. 
 
-Things you will add:
+Part 1 - Adding data to database:
+
+- Start your server. This can be local or this can be on the Droplet. The sooner you upload to the Droplet, the sooner your partner has access to the data.
+    - Uploading and running `server.js` is the same as Project 3, but we will be uploading to Project 4 instead. See [Making your website live](https://github.com/samheckle/networked-media-fa-26/blob/main/class_15/class-15-notes.md#making-your-website-live).
+- Navigate to your form. This will likely be `http://localhost:6003/` or `http://your-ip-address:6003/`.
+- Upload your dataset via the form. If you have different or additional fields, you will need to include them in the form file.
+- Check your dataset is live via `http://localhost:6003/get-data` or `http://your-ip-address:6003/get-data`. The link with your ip address will be the one you share with your partner.
+
+Part 2 - Updating your bot with your partner's data:
 
 - In `.env`: include your API token (Retrieved from [Account Preferences → Development](https://networked-media.itp.io/settings/applications) → Click your token name → Copy Access Token)
 - In `bot.js`: under the comment ["TODO ADD API REQUEST"](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L22), add your request to your partners server.
     - Note: It will look exactly like [class 19](https://github.com/samheckle/networked-media-fa-26/blob/main/class_19/class-19-demo/public/main.js#L9), replacing `localhost` with your partner's Droplet IP address.
     - Note: Make sure the port number in the URL matches your partner's `app.listen`.
     - Note: Your partner's server needs to be up and running for you to make requests to it.
-- In `bot.js`: manipulate the retrieved data by grabbing the json. This will be similar to [class 18 demo](https://github.com/samheckle/networked-media-fa-26/blob/main/class_18/class-18-demo/bot.js#L27). The json data that you are parsing is an array.
+- In `bot.js`: under the comment ["TODO SELECT ITEM FROM JSON"](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L32), manipulate the retrieved data by grabbing the json. This will be similar to [class 18 demo](https://github.com/samheckle/networked-media-fa-26/blob/main/class_18/class-18-demo/bot.js#L27). The json data that you are parsing is an array.
 - In `bot.js`: when you are ready to have your bot be public, change the [visibility property](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L17) to `"public"`
 
 ### Uploading to droplet & updating Node.js
