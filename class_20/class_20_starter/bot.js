@@ -21,7 +21,7 @@ async function makeStatus(text) {
 setInterval(async () => {
     // TODO: ADD API REQUEST
     // change localhost to your partner's droplet IP (their server must be running)
-    // if needed, change the port (6003) to match your partner's app.listen in server.js
+    // if needed, change the port (6003) to match your partner's app.listen in *their* server.js
     let url = 'http://localhost:6003/get-data';
 
     let response = await fetch(url)
