@@ -90,6 +90,7 @@ Things you will add:
     - Note: It will look exactly like [class 19](https://github.com/samheckle/networked-media-fa-26/blob/main/class_19/class-19-demo/public/main.js#L9), replacing `localhost` with your partner's Droplet IP address.
     - Note: Make sure the port number in the URL matches your partner's `app.listen`.
     - Note: Your partner's server needs to be up and running for you to make requests to it.
+- In `bot.js`: manipulate the retrieved data by grabbing the json. This will be similar to [class 18 demo](https://github.com/samheckle/networked-media-fa-26/blob/main/class_18/class-18-demo/bot.js#L27). The json data that you are parsing is an array.
 - In `bot.js`: when you are ready to have your bot be public, change the [visibility property](https://github.com/samheckle/networked-media-fa-26/blob/main/class_20/class_20_starter/bot.js#L17) to `"public"`
 
 ### Uploading to droplet & updating Node.js
