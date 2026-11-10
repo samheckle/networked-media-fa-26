@@ -37,4 +37,6 @@ setInterval(async () => {
     
     // make our status
     makeStatus(post);
+
+    // TODO: CHANGE 5000ms TO YOUR SPECIFIC INTERVAL
 }, 5000);
