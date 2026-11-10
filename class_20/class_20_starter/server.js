@@ -2,8 +2,13 @@
 // the only difference is adding njk
 const express = require('express');
 const nunjucks = require('nunjucks');
+let nedb = require('@seald-io/nedb');
 
 const app = express();
+let database = new nedb({ 
+	filename: 'mydatabase.db', 
+	autoload: true 
+});
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
