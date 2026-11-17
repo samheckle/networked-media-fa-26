@@ -1,11 +1,11 @@
 // Q: how do we know this is a node project?
-// A:
+// A: 
 
 // Q: how do we run this project?
-// A:
+// A: 
 
 // Q: Try running the project. What command do you need to run to get it to work and why do you need to run that command?
-// A:
+// A: 
 
 // 1. import libraries
 const express = require('express');
@@ -14,7 +14,7 @@ const nedb = require('@seald-io/nedb');
 const nunjucks = require('nunjucks')
 
 // Q: what do these variables do? write the answer above each declaration.
-// A:
+// A: 
 const app = express();
 // A: 
 const upload = multer({
@@ -27,17 +27,17 @@ const database = new nedb({
 });
 
 // Q: what do each of these items set up? write above each item configuration.
-// A:
+// A: 
 nunjucks.configure('views', {
 	autoescape: true,
 	express: app,
     noCache: true // NEW! we don't have to restart the server for .njk updates :)
 });
-// A:
+// A: 
 app.use(express.static('public'));
-// A:
+// A: 
 app.use(express.urlencoded({ extended: true })); 
-// A:
+// A: 
 app.set('view engine', 'njk');
 
 // Q: what route do we use to go to the home page? how do we access it in the browser?
